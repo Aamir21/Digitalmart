@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>DigitalMAG </title>
+
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="index.css">
+
+
+    <link rel="stylesheet" href="./fontawesome-free-5.13.0-web/css/all.css">
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Advent+Pro|Alfa+Slab+One|Anton|Archivo+Narrow|Baloo+2|Baloo+Chettan+2|Bellota|BenchNine|Caveat|Cinzel|Comfortaa|Concert+One|Cookie|Damion|Dancing+Script|Dosis|Electrolize|Fredoka+One|Great+Vibes|Indie+Flower|Inter|Josefin+Sans|Josefin+Slab|Kaushan+Script|Lato|Lobster|Luckiest+Guy|Monoton|Montserrat|Open+Sans|Oswald|Oxanium|PT+Sans+Caption|Pacifico|Parisienne|Passion+One|Poiret+One|Poppins|Quattrocento+Sans|Raleway|Righteous|Roboto+Mono|Sacramento|Satisfy|Sen|Source+Sans+Pro|Spartan|Titillium+Web|Ubuntu|Ultra|Yellowtail&display=swap" rel="stylesheet">
+        
+    
+        
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+        <!-- Popper JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+      
+
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+        
+
+		<script>
+
+			$(document).ready(function(){
+
+				$("#hamburger").click(function(){
+
+					$(".seg1_2").slideToggle(function(){
+
+						$(".seg1_2").css("height", "250px");
+						//$("#close").css("display", "block");
+					});
+
+				});
+
+				
+
+			});
+
+		</script>
+
+
+</head>
+<body>
+
+	<div class="container-fluid">
+
+		<div class="row">
+			<div class="col-md-4 seg1">		<!--seg1-->
+				<p><b>DigitalMAG</b></p>
+
+				<i class="fa fa-bars" id="hamburger"></i>
+				
+			</div>
+
+			<div class="col-md-8 seg1_2">		<!--seg1_2-->
+				<ul>
+					<a href="#"><li>About</li></a>
+					<a href="#"><li>CoverStory</li></a>
+					<a href="#"><li>Article</li></a>
+					<a href="#"><li>Home</li></a>
+
+				</ul>
+
+			</div> 
+
+		</div>
+
+		<div class="row">
+
+			<div class="col-md-12 seg2">
+				<h2>Department of <b>Computer Science and Information Technology</b></h2>
+				<h4>A Unit of Mahatma Gandhi Central University, Motihari</h4>
+
+				<a><button>Subscribe</button></a>
+
+			</div>
+		</div>
+
+		<div class="row">
+
+			<div class="col-md-12 seg3">
+				<h1>Articles</h1>
+
+				<div class="col-md-3">
+					<p>Issue No. 1</p>
+					<h2>Web 3.O</h2>
+					<h6>Author : Ravi Kumar</h6>
+				</div>
+				<div class="col-md-3">
+					<p>Issue No. 2</p>
+					<h2>Machine Learning</h2>
+					<h6>Author : Ravi Kumar</h6>
+				</div>
+				<div class="col-md-3">
+					<p>Issue No. 1</p>
+					<h2>Robotics</h2>
+					<h6>Author : Manoj Kumar</h6>
+				</div>
+				
+			</div>
+
+		</div>
+
+
+
+
+
+	</div>
+	
+</body>
+</html>
